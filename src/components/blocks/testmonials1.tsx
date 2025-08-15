@@ -72,7 +72,7 @@ export default function Testimonials1() {
           </h2>
           <blockquote className="min-h-[200px] md:min-h-[240px] flex flex-col">
             <p className="text-base font-semibold leading-relaxed text-foreground flex-1">
-              "{currentTestimonial.quote}"
+              &ldquo;{currentTestimonial.quote}&rdquo;
             </p>
 
             <div className="mt-6">

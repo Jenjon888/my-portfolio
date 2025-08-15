@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import React from "react";
-import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
+import React from 'react';
+import { CardBody, CardContainer, CardItem } from '@/components/ui/3d-card';
 
 export function ThreeDCardDemo() {
   return (

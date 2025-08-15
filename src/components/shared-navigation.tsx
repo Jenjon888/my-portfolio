@@ -95,7 +95,10 @@ export const SharedNavigation = () => {
                 <Button
                   asChild
                   size="sm"
-                  className={cn('transition-all duration-300', isScrolled && 'lg:hidden')}
+                  className={cn(
+                    'transition-all duration-300',
+                    isScrolled && 'lg:hidden'
+                  )}
                 >
                   <Link href="#">
                     <span>CV</span>
@@ -104,7 +107,10 @@ export const SharedNavigation = () => {
                 <Button
                   asChild
                   size="sm"
-                  className={cn('transition-all duration-300', isScrolled ? 'lg:inline-flex' : 'hidden')}
+                  className={cn(
+                    'transition-all duration-300',
+                    isScrolled ? 'lg:inline-flex' : 'hidden'
+                  )}
                 >
                   <Link href="#">
                     <span>CV</span>

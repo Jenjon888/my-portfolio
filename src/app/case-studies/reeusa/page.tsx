@@ -1,11 +1,7 @@
 import { HeroHeader } from '@/components/header';
 import { SharedFooter } from '@/components/shared-footer';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Link from 'next/link';
-import { ArrowLeft } from 'lucide-react';
-import ContentSection from '@/components/content-3';
-
 
 export default function ProjectAlphaCaseStudy() {
   return (
@@ -124,57 +120,56 @@ export default function ProjectAlphaCaseStudy() {
         </div>
       </section>
 
-             {/* Two Column Section with Title and Bullet Points */}
-             <section className="bg-gray-50 dark:bg-gray-900 py-16">
-         <div className="mx-auto max-w-5xl px-6">
-           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-             <div className="space-y-4">
-               <h2 className="text-4xl font-semibold text-foreground mb-6">
-                 Key Implementation Features
-               </h2>
-              
-             </div>
-             <div className="space-y-4">
-               <ul className="space-y-3 text-muted-foreground">
-                 <li className="flex items-start gap-3">
-                   <span className="w-2 h-2 bg-black dark:bg-white rounded-full mt-2 flex-shrink-0"></span>
-                   <span>Advanced adaptive learning algorithms</span>
-                 </li>
-                 <li className="flex items-start gap-3">
-                   <span className="w-2 h-2 bg-black dark:bg-white rounded-full mt-2 flex-shrink-0"></span>
-                   <span>Comprehensive progress tracking </span>
-                 </li>
-                 <li className="flex items-start gap-3">
-                   <span className="w-2 h-2 bg-black dark:bg-white rounded-full mt-2 flex-shrink-0"></span>
-                   <span>Intuitive navigation design </span>
-                 </li>
-                 <li className="flex items-start gap-3">
-                   <span className="w-2 h-2 bg-black dark:bg-white rounded-full mt-2 flex-shrink-0"></span>
-                   <span>Real-time feedback mechanisms </span>
-                 </li>
-                 <li className="flex items-start gap-3">
-                   <span className="w-2 h-2 bg-black dark:bg-white rounded-full mt-2 flex-shrink-0"></span>
-                   <span>Extensive content library with 75+ tutorials</span>
-                 </li>
-                 <li className="flex items-start gap-3">
-                   <span className="w-2 h-2 bg-black dark:bg-white rounded-full mt-2 flex-shrink-0"></span>
-                   <span>Mobile-responsive design for seamless access</span>
-                 </li>
-                 <li className="flex items-start gap-3">
-                   <span className="w-2 h-2 bg-black dark:bg-white rounded-full mt-2 flex-shrink-0"></span>
-                   <span>Collaborative learning features</span>
-                 </li>
-                 <li className="flex items-start gap-3">
-                   <span className="w-2 h-2 bg-black dark:bg-white rounded-full mt-2 flex-shrink-0"></span>
-                   <span>Integration with external study resources</span>
-                 </li>
-               </ul>
-             </div>
-           </div>
-         </div>
-       </section>
+      {/* Two Column Section with Title and Bullet Points */}
+      <section className="bg-gray-50 dark:bg-gray-900 py-16">
+        <div className="mx-auto max-w-5xl px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div className="space-y-4">
+              <h2 className="text-4xl font-semibold text-foreground mb-6">
+                Key Implementation Features
+              </h2>
+            </div>
+            <div className="space-y-4">
+              <ul className="space-y-3 text-muted-foreground">
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-black dark:bg-white rounded-full mt-2 flex-shrink-0"></span>
+                  <span>Advanced adaptive learning algorithms</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-black dark:bg-white rounded-full mt-2 flex-shrink-0"></span>
+                  <span>Comprehensive progress tracking </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-black dark:bg-white rounded-full mt-2 flex-shrink-0"></span>
+                  <span>Intuitive navigation design </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-black dark:bg-white rounded-full mt-2 flex-shrink-0"></span>
+                  <span>Real-time feedback mechanisms </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-black dark:bg-white rounded-full mt-2 flex-shrink-0"></span>
+                  <span>Extensive content library with 75+ tutorials</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-black dark:bg-white rounded-full mt-2 flex-shrink-0"></span>
+                  <span>Mobile-responsive design for seamless access</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-black dark:bg-white rounded-full mt-2 flex-shrink-0"></span>
+                  <span>Collaborative learning features</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-black dark:bg-white rounded-full mt-2 flex-shrink-0"></span>
+                  <span>Integration with external study resources</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
-             {/* Single Column Image */}
+      {/* Single Column Image */}
       <section className="bg-white dark:bg-gray-950 py-8">
         <div className="mx-auto max-w-5xl px-6">
           <div className="aspect-[16/9] rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700">
@@ -187,7 +182,7 @@ export default function ProjectAlphaCaseStudy() {
         </div>
       </section>
 
-             {/* One Column Body Copy Section */}
+      {/* One Column Body Copy Section */}
       <section className="bg-gray-50 dark:bg-gray-900 py-16">
         <div className="mx-auto max-w-5xl px-6">
           <div className="space-y-6">
@@ -239,8 +234,6 @@ export default function ProjectAlphaCaseStudy() {
         </div>
       </section> */}
 
-     
-
       {/* Two Column Copy Section with Different Background Colors */}
       <section className="py-16">
         <div className="mx-auto max-w-5xl px-6">
@@ -277,8 +270,8 @@ export default function ProjectAlphaCaseStudy() {
         </div>
       </section>
 
-            {/* One Column Body Copy Section */}
-            <section className="bg-gray-50 dark:bg-gray-900 py-16">
+      {/* One Column Body Copy Section */}
+      <section className="bg-gray-50 dark:bg-gray-900 py-16">
         <div className="mx-auto max-w-5xl px-6">
           <div className="space-y-6">
             <h2 className="text-3xl font-semibold text-foreground mb-6">
@@ -436,32 +429,27 @@ export default function ProjectAlphaCaseStudy() {
         </div>
       </section>
 
-             {/* Single Column Image */}
-       <section className="bg-white dark:bg-gray-950 py-16">
-         <div className="mx-auto max-w-5xl px-6">
-           <div className="aspect-[16/9] rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700">
-             <img
-               src="/logom.jpg"
-               alt="Project Alpha logo design"
-               className="w-full h-full object-cover rounded-lg"
-             />
-           </div>
-         </div>
-       </section>
+      {/* Single Column Image */}
+      <section className="bg-white dark:bg-gray-950 py-16">
+        <div className="mx-auto max-w-5xl px-6">
+          <div className="aspect-[16/9] rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700">
+            <img
+              src="/logom.jpg"
+              alt="Project Alpha logo design"
+              className="w-full h-full object-cover rounded-lg"
+            />
+          </div>
+        </div>
+      </section>
 
-
-
-       {/* Main Content */}
+      {/* Main Content */}
       <div className="mx-auto max-w-4xl px-6 py-12">
-        
-
         <div className="text-center mt-12">
           <Link href="/case-studies">
             <Button variant="outline" className="mr-4">
               View All Case Studies
             </Button>
           </Link>
-          
         </div>
       </div>
 

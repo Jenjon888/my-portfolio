@@ -12,7 +12,8 @@ export default function Features() {
               <div className="md:p-6">
                 <p className="font-medium">Design without borders</p>
                 <p className="text-muted-foreground mt-3 max-w-sm text-sm">
-                Every project begins with listening and observing turning insights into meaningful interactions.
+                  Every project begins with listening and observing turning
+                  insights into meaningful interactions.
                 </p>
               </div>
             </CardHeader>
@@ -41,7 +42,7 @@ export default function Features() {
 
           <Card className="group overflow-hidden shadow-zinc-950/5 sm:col-span-2 sm:rounded-none sm:rounded-tr-xl">
             <p className="mx-auto my-6 max-w-md text-balance px-6 text-center text-lg font-semibold sm:text-2xl md:p-6">
-            Ideas in motion
+              Ideas in motion
             </p>
 
             <CardContent className="mt-auto h-fit">
@@ -68,7 +69,7 @@ export default function Features() {
           </Card>
           <Card className="group p-6 shadow-zinc-950/5 sm:col-span-2 sm:rounded-none sm:rounded-bl-xl md:p-12">
             <p className="mx-auto mb-12 max-w-md text-balance text-center text-lg font-semibold sm:text-2xl">
-            Craft journeys that people remember.
+              Craft journeys that people remember.
             </p>
 
             <div className="flex justify-center gap-6">
@@ -85,7 +86,7 @@ export default function Features() {
             <CardHeader className="p-6 md:p-12">
               <p className="font-medium">Creative precision</p>
               <p className="text-muted-foreground mt-2 max-w-sm text-sm">
-              Every project begins with listening and observing
+                Every project begins with listening and observing
               </p>
             </CardHeader>
             <CardContent className="relative h-fit px-6 pb-6 md:px-12 md:pb-12">

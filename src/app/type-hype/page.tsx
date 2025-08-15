@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { HeroHeader } from '@/components/header';
 import { SharedFooter } from '@/components/shared-footer';
 
@@ -9,10 +8,7 @@ export default function TypeHypePage() {
 
       {/* Hero headline */}
       <section className="container pt-8 pb-[60px]">
-        <h1 className="headline leading-[0.95]">
-          Medify
-          
-        </h1>
+        <h1 className="headline leading-[0.95]">Medify</h1>
       </section>
 
       {/* Device mockup area */}

@@ -1,10 +1,3 @@
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card';
 import { HeroHeader } from '@/components/header';
 import { SharedFooter } from '@/components/shared-footer';
 import { BorderBeam } from '@/components/magicui/border-beam';
@@ -27,12 +20,20 @@ export default function CaseStudiesPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Multi-Brand Design System */}
-          <Link href="/case-studies/multi-brand-design-system" className="group block">
+          <Link
+            href="/case-studies/multi-brand-design-system"
+            className="group block"
+          >
             <div className="rounded-[6px] border border-border bg-card overflow-hidden h-[400px] flex flex-col relative">
-              <BorderBeam size={50} duration={6} colorFrom="#3b82f6" colorTo="#1d4ed8" />
+              <BorderBeam
+                size={50}
+                duration={6}
+                colorFrom="#3b82f6"
+                colorTo="#1d4ed8"
+              />
               <div className="h-48 bg-purple-700/60 grid place-items-center relative overflow-hidden">
-                <img 
-                  src="/plan_14.jpg" 
+                <img
+                  src="/plan_14.jpg"
                   alt="Multi-Brand Design System"
                   className="absolute inset-0 w-full h-full object-cover opacity-60 transition-transform duration-300 group-hover:scale-110"
                 />
@@ -42,7 +43,10 @@ export default function CaseStudiesPage() {
               </div>
               <div className="p-4 flex-1 flex flex-col">
                 <p className="text-sm text-muted-foreground group-hover:text-gray-800 dark:group-hover:text-gray-300 transition-colors">
-                  Developed a comprehensive multi-brand design system for a financial client, creating foundations, components, and documentation to ensure consistency and scalability across various brands while preserving unique identities.
+                  Developed a comprehensive multi-brand design system for a
+                  financial client, creating foundations, components, and
+                  documentation to ensure consistency and scalability across
+                  various brands while preserving unique identities.
                 </p>
                 <div className="mt-3 flex items-center gap-2">
                   <span className="inline-flex items-center rounded-full bg-gray-900 text-white px-2 py-0.5 text-[10px]">
@@ -62,10 +66,15 @@ export default function CaseStudiesPage() {
           {/* UX Research & Design Chatbot */}
           <Link href="/case-studies/ux-chatbot" className="group block">
             <div className="rounded-[6px] border border-border bg-card overflow-hidden h-[400px] flex flex-col relative">
-              <BorderBeam size={50} duration={6} colorFrom="#3b82f6" colorTo="#1d4ed8" />
+              <BorderBeam
+                size={50}
+                duration={6}
+                colorFrom="#3b82f6"
+                colorTo="#1d4ed8"
+              />
               <div className="h-48 bg-blue-700/60 grid place-items-center relative overflow-hidden">
-                <img 
-                  src="/chatbot.avif" 
+                <img
+                  src="/chatbot.avif"
                   alt="UX Research & Design Chatbot"
                   className="absolute inset-0 w-full h-full object-cover opacity-60 transition-transform duration-300 group-hover:scale-110"
                 />
@@ -75,7 +84,9 @@ export default function CaseStudiesPage() {
               </div>
               <div className="p-4 flex-1 flex flex-col">
                 <p className="text-sm text-muted-foreground group-hover:text-gray-800 dark:group-hover:text-gray-300 transition-colors">
-                  An AI-powered mentor that helps people learn UX research and design through practical guidance and grounded knowledge, built from a curated library of methods and case studies.
+                  An AI-powered mentor that helps people learn UX research and
+                  design through practical guidance and grounded knowledge,
+                  built from a curated library of methods and case studies.
                 </p>
                 <div className="mt-3 flex items-center gap-2">
                   <span className="inline-flex items-center rounded-full bg-gray-900 text-white px-2 py-0.5 text-[10px]">
@@ -93,12 +104,20 @@ export default function CaseStudiesPage() {
           </Link>
 
           {/* Crypto AI Portfolio and Insights Platform */}
-          <Link href="/case-studies/crypto-ai-portfolio" className="group block">
+          <Link
+            href="/case-studies/crypto-ai-portfolio"
+            className="group block"
+          >
             <div className="rounded-[6px] border border-border bg-card overflow-hidden h-[400px] flex flex-col relative">
-              <BorderBeam size={50} duration={6} colorFrom="#3b82f6" colorTo="#1d4ed8" />
+              <BorderBeam
+                size={50}
+                duration={6}
+                colorFrom="#3b82f6"
+                colorTo="#1d4ed8"
+              />
               <div className="h-48 bg-green-700/60 grid place-items-center relative overflow-hidden">
-                <img 
-                  src="/crypto.jpg" 
+                <img
+                  src="/crypto.jpg"
                   alt="Crypto AI Portfolio and Insights Platform"
                   className="absolute inset-0 w-full h-full object-cover opacity-60 transition-transform duration-300 group-hover:scale-110"
                 />
@@ -108,7 +127,10 @@ export default function CaseStudiesPage() {
               </div>
               <div className="p-4 flex-1 flex flex-col">
                 <p className="text-sm text-muted-foreground group-hover:text-gray-800 dark:group-hover:text-gray-300 transition-colors">
-                  A full stack crypto portfolio platform that turns real-time market data into clear insights, automated trading recommendations, and a single view of holdings across exchanges and wallets.
+                  A full stack crypto portfolio platform that turns real-time
+                  market data into clear insights, automated trading
+                  recommendations, and a single view of holdings across
+                  exchanges and wallets.
                 </p>
                 <div className="mt-3 flex items-center gap-2">
                   <span className="inline-flex items-center rounded-full bg-gray-900 text-white px-2 py-0.5 text-[10px]">
@@ -127,10 +149,15 @@ export default function CaseStudiesPage() {
 
           <Link href="/case-studies/medify" className="group block">
             <div className="rounded-[6px] border border-border bg-card overflow-hidden h-[400px] flex flex-col relative">
-              <BorderBeam size={50} duration={6} colorFrom="#3b82f6" colorTo="#1d4ed8" />
+              <BorderBeam
+                size={50}
+                duration={6}
+                colorFrom="#3b82f6"
+                colorTo="#1d4ed8"
+              />
               <div className="h-48 bg-zinc-800 grid place-items-center relative overflow-hidden">
-                <img 
-                  src="/medify.jpg" 
+                <img
+                  src="/medify.jpg"
                   alt="Medify GAMSAT Platform"
                   className="absolute inset-0 w-full h-full object-cover opacity-60 transition-transform duration-300 group-hover:scale-110"
                 />
@@ -159,13 +186,11 @@ export default function CaseStudiesPage() {
             </div>
           </Link>
 
-
-
           <Link href="/case-studies/mortgage-gym" className="group block">
             <div className="rounded-[6px] border border-border bg-card overflow-hidden h-[400px] flex flex-col">
               <div className="h-48 bg-zinc-800 grid place-items-center relative overflow-hidden">
-                <img 
-                  src="/mortgage_gym.jpg" 
+                <img
+                  src="/mortgage_gym.jpg"
                   alt="Mortgage Gym Platform"
                   className="absolute inset-0 w-full h-full object-cover opacity-60 transition-transform duration-300 group-hover:scale-110"
                 />
@@ -175,8 +200,8 @@ export default function CaseStudiesPage() {
               </div>
               <div className="p-4 flex-1 flex flex-col">
                 <p className="text-sm text-muted-foreground group-hover:text-gray-800 dark:group-hover:text-gray-300 transition-colors">
-                  A comprehensive training and certification platform designed to
-                  help mortgage professionals enhance their skills and stay
+                  A comprehensive training and certification platform designed
+                  to help mortgage professionals enhance their skills and stay
                   compliant with industry regulations.
                 </p>
                 <div className="mt-3 flex items-center gap-2">
@@ -197,8 +222,8 @@ export default function CaseStudiesPage() {
           <Link href="/case-studies/cogo" className="group block">
             <div className="rounded-[6px] border border-border bg-card overflow-hidden h-[400px] flex flex-col">
               <div className="h-48 bg-zinc-800 grid place-items-center relative overflow-hidden">
-                <img 
-                  src="/cogo_2.jpg" 
+                <img
+                  src="/cogo_2.jpg"
                   alt="Cogo Sustainable Living App"
                   className="absolute inset-0 w-full h-full object-cover opacity-60 transition-transform duration-300 group-hover:scale-110"
                 />
@@ -209,8 +234,8 @@ export default function CaseStudiesPage() {
               <div className="p-4 flex-1 flex flex-col">
                 <p className="text-sm text-muted-foreground group-hover:text-gray-800 dark:group-hover:text-gray-300 transition-colors">
                   An innovative mobile application that helps users track their
-                  carbon footprint and make sustainable lifestyle choices through
-                  intuitive design and gamification.
+                  carbon footprint and make sustainable lifestyle choices
+                  through intuitive design and gamification.
                 </p>
                 <div className="mt-3 flex items-center gap-2">
                   <span className="inline-flex items-center rounded-full bg-gray-900 text-white px-2 py-0.5 text-[10px]">
@@ -230,8 +255,8 @@ export default function CaseStudiesPage() {
           <Link href="/case-studies/hsbc" className="group block">
             <div className="rounded-[6px] border border-border bg-card overflow-hidden h-[400px] flex flex-col">
               <div className="h-48 bg-zinc-800 grid place-items-center relative overflow-hidden">
-                <img 
-                  src="/hsbc.jpg" 
+                <img
+                  src="/hsbc.jpg"
                   alt="HSBC Digital Banking"
                   className="absolute inset-0 w-full h-full object-cover opacity-60 transition-transform duration-300 group-hover:scale-110"
                 />
@@ -241,7 +266,7 @@ export default function CaseStudiesPage() {
               </div>
               <div className="p-4 flex-1 flex flex-col">
                 <p className="text-sm text-muted-foreground group-hover:text-gray-800 dark:group-hover:text-gray-300 transition-colors">
-                  A complete overhaul of HSBC's digital banking platform,
+                  A complete overhaul of HSBC&apos;s digital banking platform,
                   focusing on accessibility, security, and user experience for
                   millions of customers worldwide.
                 </p>
@@ -263,8 +288,8 @@ export default function CaseStudiesPage() {
           <Link href="/case-studies/mporium" className="group block">
             <div className="rounded-[6px] border border-border bg-card overflow-hidden h-[400px] flex flex-col">
               <div className="h-48 bg-zinc-800 grid place-items-center relative overflow-hidden">
-                <img 
-                  src="/mop2.jpeg" 
+                <img
+                  src="/mop2.jpeg"
                   alt="Mporium Mobile Commerce"
                   className="absolute inset-0 w-full h-full object-cover opacity-60 transition-transform duration-300 group-hover:scale-110"
                 />
@@ -296,8 +321,8 @@ export default function CaseStudiesPage() {
           <Link href="/case-studies/tech-data" className="group block">
             <div className="rounded-[6px] border border-border bg-card overflow-hidden h-[400px] flex flex-col">
               <div className="h-48 bg-zinc-800 grid place-items-center relative overflow-hidden">
-                <img 
-                  src="/td6.jpg" 
+                <img
+                  src="/td6.jpg"
                   alt="Tech Data B2B Platform"
                   className="absolute inset-0 w-full h-full object-cover opacity-60 transition-transform duration-300 group-hover:scale-110"
                 />
@@ -329,8 +354,8 @@ export default function CaseStudiesPage() {
           <Link href="/case-studies/skinart" className="group block">
             <div className="rounded-[6px] border border-border bg-card overflow-hidden h-[400px] flex flex-col">
               <div className="h-48 bg-zinc-800 grid place-items-center relative overflow-hidden">
-                <img 
-                  src="/skinart_large2.jpg" 
+                <img
+                  src="/skinart_large2.jpg"
                   alt="SkinArt Digital Art Platform"
                   className="absolute inset-0 w-full h-full object-cover opacity-60 transition-transform duration-300 group-hover:scale-110"
                 />
@@ -362,8 +387,8 @@ export default function CaseStudiesPage() {
           <Link href="/case-studies/reeusa" className="group block">
             <div className="rounded-[6px] border border-border bg-card overflow-hidden h-[400px] flex flex-col">
               <div className="h-48 bg-zinc-800 grid place-items-center relative overflow-hidden">
-                <img 
-                  src="/cogo_7.jpg" 
+                <img
+                  src="/cogo_7.jpg"
                   alt="Reeusa Sustainable Marketplace"
                   className="absolute inset-0 w-full h-full object-cover opacity-60 transition-transform duration-300 group-hover:scale-110"
                 />

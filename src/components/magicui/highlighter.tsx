@@ -1,18 +1,18 @@
-"use client";
+'use client';
 
-import { useEffect, useRef } from "react";
-import { annotate } from "rough-notation";
-import type React from "react";
+import { useEffect, useRef } from 'react';
+import { annotate } from 'rough-notation';
+import type React from 'react';
 
 // Define available annotation actions
 type AnnotationAction =
-  | "highlight"
-  | "underline"
-  | "box"
-  | "circle"
-  | "strike-through"
-  | "crossed-off"
-  | "bracket";
+  | 'highlight'
+  | 'underline'
+  | 'box'
+  | 'circle'
+  | 'strike-through'
+  | 'crossed-off'
+  | 'bracket';
 
 // Custom TypeScript interface for supported props
 interface HighlighterProps {
@@ -28,8 +28,8 @@ interface HighlighterProps {
 
 export function Highlighter({
   children,
-  action = "highlight",
-  color = "#ffd1dc", // Default pink color
+  action = 'highlight',
+  color = '#ffd1dc', // Default pink color
   strokeWidth = 1.5,
   animationDuration = 600,
   iterations = 2,

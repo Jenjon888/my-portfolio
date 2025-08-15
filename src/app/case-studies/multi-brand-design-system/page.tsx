@@ -2,7 +2,6 @@ import { HeroHeader } from '@/components/header';
 import { SharedFooter } from '@/components/shared-footer';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-import { ArrowLeft } from 'lucide-react';
 
 export default function MultiBrandDesignSystemCaseStudy() {
   return (
@@ -21,7 +20,10 @@ export default function MultiBrandDesignSystemCaseStudy() {
                   Design System
                 </h1>
                 <p className="text-xl text-gray-300">
-                  In collaboration with another product designer, I developed a new multi-brand design system for a financial client, creating foundations, components, and comprehensive documentation to ensure consistency and scalability across various brands.
+                  In collaboration with another product designer, I developed a
+                  new multi-brand design system for a financial client, creating
+                  foundations, components, and comprehensive documentation to
+                  ensure consistency and scalability across various brands.
                 </p>
               </div>
             </div>
@@ -33,17 +35,31 @@ export default function MultiBrandDesignSystemCaseStudy() {
                     <div className="flex items-center justify-between mb-4">
                       <div className="flex items-center gap-3">
                         <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center">
-                          <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                            <path fillRule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
+                          <svg
+                            className="w-4 h-4 text-white"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                          >
+                            <path
+                              fillRule="evenodd"
+                              d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                              clipRule="evenodd"
+                            />
                           </svg>
                         </div>
                         <div>
-                          <div className="text-sm font-semibold text-gray-900">Design System</div>
-                          <div className="text-xs text-gray-500">Multi-Brand • Financial</div>
+                          <div className="text-sm font-semibold text-gray-900">
+                            Design System
+                          </div>
+                          <div className="text-xs text-gray-500">
+                            Multi-Brand • Financial
+                          </div>
                         </div>
                       </div>
                       <div className="text-right">
-                        <div className="text-lg font-bold text-purple-600">3 Stages</div>
+                        <div className="text-lg font-bold text-purple-600">
+                          3 Stages
+                        </div>
                         <div className="text-xs text-gray-500">Complete</div>
                       </div>
                     </div>
@@ -51,7 +67,9 @@ export default function MultiBrandDesignSystemCaseStudy() {
                     <div className="flex-1 space-y-3 mb-4">
                       <div className="bg-gray-100 rounded-lg p-3">
                         <div className="flex justify-between items-center mb-2">
-                          <span className="text-xs font-medium text-gray-700">Brand Coverage</span>
+                          <span className="text-xs font-medium text-gray-700">
+                            Brand Coverage
+                          </span>
                           <span className="text-xs text-gray-500">100%</span>
                         </div>
                         <div className="h-16 bg-gradient-to-r from-purple-400 to-blue-500 rounded"></div>
@@ -59,7 +77,9 @@ export default function MultiBrandDesignSystemCaseStudy() {
 
                       <div className="grid grid-cols-2 gap-2">
                         <div className="bg-purple-50 rounded p-2">
-                          <div className="text-xs text-gray-600">Components</div>
+                          <div className="text-xs text-gray-600">
+                            Components
+                          </div>
                           <div className="text-sm font-semibold">50+</div>
                           <div className="text-xs text-purple-500">Built</div>
                         </div>
@@ -72,17 +92,29 @@ export default function MultiBrandDesignSystemCaseStudy() {
 
                       <div className="bg-green-50 rounded p-2">
                         <div className="text-xs text-gray-600 mb-1">Status</div>
-                        <div className="text-xs text-gray-700">Design Council Established</div>
+                        <div className="text-xs text-gray-700">
+                          Design Council Established
+                        </div>
                       </div>
                     </div>
 
                     <div className="flex gap-2">
                       <div className="flex-1 bg-gray-100 rounded-full px-4 py-2">
-                        <p className="text-xs text-gray-500">Search components...</p>
+                        <p className="text-xs text-gray-500">
+                          Search components...
+                        </p>
                       </div>
                       <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center">
-                        <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule="evenodd" />
+                        <svg
+                          className="w-4 h-4 text-white"
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                            clipRule="evenodd"
+                          />
                         </svg>
                       </div>
                     </div>
@@ -124,12 +156,17 @@ export default function MultiBrandDesignSystemCaseStudy() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div className="space-y-4">
               <h2 className="text-4xl font-medium">
-                This project was divided into three key stages: Discovery, Foundations, and Components.
+                This project was divided into three key stages: Discovery,
+                Foundations, and Components.
               </h2>
             </div>
             <div className="space-y-4">
               <p>
-                In collaboration with another product designer, I developed a new multi-brand design system for a financial client. The system ensures consistency and scalability across various brands within the client's portfolio while preserving each brand's unique identity.
+                In collaboration with another product designer, I developed a
+                new multi-brand design system for a financial client. The system
+                ensures consistency and scalability across various brands within
+                the client&apos;s portfolio while preserving each brand&apos;s
+                unique identity.
               </p>
             </div>
           </div>
@@ -160,9 +197,14 @@ export default function MultiBrandDesignSystemCaseStudy() {
             </div>
             <div className="space-y-4">
               <p className="text-muted-foreground mb-6">
-                Conducted comprehensive stakeholder interviews to understand their specific needs and requirements. I also performed an in-depth UI audit to identify areas for improvement, ensuring we addressed both user experience and visual design challenges.
+                Conducted comprehensive stakeholder interviews to understand
+                their specific needs and requirements. I also performed an
+                in-depth UI audit to identify areas for improvement, ensuring we
+                addressed both user experience and visual design challenges.
               </p>
-              <h3 className="font-semibold text-foreground mb-3">Key Activities</h3>
+              <h3 className="font-semibold text-foreground mb-3">
+                Key Activities
+              </h3>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-black dark:bg-white rounded-full mt-2 flex-shrink-0"></span>
@@ -208,9 +250,16 @@ export default function MultiBrandDesignSystemCaseStudy() {
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed max-w-2xl text-left">
               <p>
-                Authored the foundational elements and guidelines for the design system on Supernova. This included creating detailed documentation and compiling a comprehensive set of assets. These foundations served as the blueprint for consistency and scalability across various brands within the client's portfolio.
+                Authored the foundational elements and guidelines for the design
+                system on Supernova. This included creating detailed
+                documentation and compiling a comprehensive set of assets. These
+                foundations served as the blueprint for consistency and
+                scalability across various brands within the client&apos;s
+                portfolio.
               </p>
-              <h3 className="font-semibold text-foreground mb-3">Deliverables</h3>
+              <h3 className="font-semibold text-foreground mb-3">
+                Deliverables
+              </h3>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-black dark:bg-white rounded-full mt-2 flex-shrink-0"></span>
@@ -256,9 +305,15 @@ export default function MultiBrandDesignSystemCaseStudy() {
                 Components
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Built core components for the design system, meticulously incorporating brand theming kits to ensure each brand's unique identity was preserved while maintaining overall cohesion. These components were designed to be reusable, enhancing efficiency and consistency across different projects.
+                Built core components for the design system, meticulously
+                incorporating brand theming kits to ensure each brand&apos;s
+                unique identity was preserved while maintaining overall
+                cohesion. These components were designed to be reusable,
+                enhancing efficiency and consistency across different projects.
               </p>
-              <h4 className="font-semibold text-foreground mb-2">Key Features</h4>
+              <h4 className="font-semibold text-foreground mb-2">
+                Key Features
+              </h4>
               <ul className="space-y-2 text-muted-foreground">
                 <li>• Core component library</li>
                 <li>• Brand theming kits integration</li>
@@ -271,9 +326,15 @@ export default function MultiBrandDesignSystemCaseStudy() {
                 Workshops & Training
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Conducted workshops and onboarding sessions using Figjam and Figma to help stakeholders and team members understand and effectively use the design system. These sessions included hands-on training and detailed explanations of the design principles and components.
+                Conducted workshops and onboarding sessions using Figjam and
+                Figma to help stakeholders and team members understand and
+                effectively use the design system. These sessions included
+                hands-on training and detailed explanations of the design
+                principles and components.
               </p>
-              <h4 className="font-semibold text-foreground mb-2">Training Methods</h4>
+              <h4 className="font-semibold text-foreground mb-2">
+                Training Methods
+              </h4>
               <ul className="space-y-2 text-muted-foreground">
                 <li>• Interactive workshops</li>
                 <li>• Hands-on training sessions</li>
@@ -304,12 +365,17 @@ export default function MultiBrandDesignSystemCaseStudy() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div className="space-y-4">
               <h2 className="text-4xl font-medium">
-                Our research and work have also led to the company creating their own design council.
+                Our research and work have also led to the company creating
+                their own design council.
               </h2>
             </div>
             <div className="space-y-4">
               <p>
-                This council ensures ongoing improvement and adaptation, keeping the design system up-to-date with emerging trends and technologies. The establishment of this council represents a significant organizational commitment to design excellence and systematic thinking.
+                This council ensures ongoing improvement and adaptation, keeping
+                the design system up-to-date with emerging trends and
+                technologies. The establishment of this council represents a
+                significant organizational commitment to design excellence and
+                systematic thinking.
               </p>
             </div>
           </div>
@@ -338,9 +404,16 @@ export default function MultiBrandDesignSystemCaseStudy() {
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed max-w-2xl text-left">
               <p>
-                The multi-brand design system successfully established a foundation for consistency and scalability across the client's portfolio. The comprehensive documentation and training sessions ensured smooth adoption, while the establishment of a design council demonstrates long-term organizational commitment to design excellence.
+                The multi-brand design system successfully established a
+                foundation for consistency and scalability across the
+                client&apos;s portfolio. The comprehensive documentation and
+                training sessions ensured smooth adoption, while the
+                establishment of a design council demonstrates long-term
+                organizational commitment to design excellence.
               </p>
-              <h3 className="font-semibold text-foreground mb-3">Key Achievements</h3>
+              <h3 className="font-semibold text-foreground mb-3">
+                Key Achievements
+              </h3>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-black dark:bg-white rounded-full mt-2 flex-shrink-0"></span>
@@ -387,9 +460,7 @@ export default function MultiBrandDesignSystemCaseStudy() {
               </Button>
             </Link>
             <Link href="/contact">
-              <Button className="w-full sm:w-auto">
-                Get In Touch
-              </Button>
+              <Button className="w-full sm:w-auto">Get In Touch</Button>
             </Link>
           </div>
         </div>
@@ -399,5 +470,3 @@ export default function MultiBrandDesignSystemCaseStudy() {
     </main>
   );
 }
-
-
