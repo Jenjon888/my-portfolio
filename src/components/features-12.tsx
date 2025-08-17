@@ -40,13 +40,10 @@ export default function Features() {
       <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16 lg:space-y-20 dark:[--color-border:color-mix(in_oklab,var(--color-white)_10%,transparent)]">
         <div className="relative z-10 mx-auto max-w-2xl space-y-6 text-center">
           <h2 className="text-balance text-4xl font-semibold lg:text-6xl">
-            The foundation for impactful design
+          Turning ideas into products people love
           </h2>
           <p>
-            Design is more than how it looks. It&apos;s how it works, how it
-            feels, and how it performs. I combine strategy, creativity, and deep
-            technical understanding to create products that deliver real
-            outcomes for users and businesses.
+          Design is not just about appearance. It is about how something works, how it feels to use, and how well it performs. I bring together creativity, strategy, and technical experience to design products that are clear, usable, and built to achieve both user and business goals.
           </p>
         </div>
 
@@ -67,11 +64,7 @@ export default function Features() {
               <AccordionContent>
                 <div className="space-y-4">
                   <p>
-                    With over 25 years across design, development, animation,
-                    and consulting, I bring a clear point of view to product. I
-                    focus on clarity, alignment, and impact. Every decision is
-                    rooted in research, shaped by user needs, and aligned with
-                    business goals.
+                  I have extensive knowledge and experience across design, development, animation, and consulting. A true unicorn. My approach is direct and focused. Every decision is based on research, shaped by user needs, and aligned with business goals. The aim is always clarity and impact.
                   </p>
                 </div>
               </AccordionContent>
@@ -86,10 +79,7 @@ export default function Features() {
               <AccordionContent>
                 <div className="space-y-4">
                   <p>
-                    I work closely with engineering teams from the start. That
-                    means cleaner handoffs, and faster releases. I understand
-                    their language and think in systems. Every component, every
-                    flow, every edge case is considered and covered.
+                  I work closely with development teams to make sure design moves smoothly into build. My experience and understanding of coding also help remove friction and keep the product experience consistent from concept through delivery.
                   </p>
                 </div>
               </AccordionContent>
@@ -104,10 +94,7 @@ export default function Features() {
               <AccordionContent>
                 <div className="space-y-4">
                   <p>
-                    I stay current because it matters. Whether it&apos;s AI,
-                    spatial UI, blockchain interfaces, or the latest front-end
-                    frameworks, I&apos;m always learning, testing, and pushing
-                    what&apos;s possible.
+                  I am a devoted learner of technology and keep up to date with the latest advances, especially with the rapid movement of AI. I look for ways to use these technologies to design solutions that are relevant today and adaptable for the future.
                   </p>
                 </div>
               </AccordionContent>
@@ -122,9 +109,7 @@ export default function Features() {
               <AccordionContent>
                 <div className="space-y-4">
                   <p>
-                    Real insight comes from real users. I run interviews,
-                    usability tests, and concept validation to make sure
-                    we&apos;re always building the right thing.
+                  Good design is built on understanding. Research and testing allow me to uncover real user needs, validate ideas, and make confident design decisions. It is an essential part of product development and vital to the success of any product.
                   </p>
                 </div>
               </AccordionContent>
@@ -132,7 +117,7 @@ export default function Features() {
           </Accordion>
 
           {/* Image wrapper balanced left/right padding */}
-          <div className="group relative flex overflow-hidden rounded-[6px] border border-zinc-200/50 dark:border-white/10 bg-gradient-to-br from-background to-muted/50 p-3 shadow-lg backdrop-blur-sm">
+          <div className="group relative flex overflow-hidden rounded-[6px] border border-zinc-200/50 dark:border-white/10 bg-gradient-to-br from-background to-muted/50 p-1.5 shadow-lg backdrop-blur-sm">
             <div className="aspect-[4/3] relative w-full rounded-[6px] ring-1 ring-zinc-200/60 dark:ring-white/10 shadow-xl bg-zinc-50/30 dark:bg-zinc-900/40">
               <AnimatePresence mode="sync">
                 <motion.div

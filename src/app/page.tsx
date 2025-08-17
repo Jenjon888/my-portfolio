@@ -4,6 +4,7 @@ import HeroSection from '@/components/hero-section';
 import Features from '@/components/features-12';
 import { SharedFooter } from '@/components/shared-footer';
 import { BorderBeam } from '@/components/magicui/border-beam';
+import { AnimatedGroup } from '@/components/ui/animated-group';
 import Image from 'next/image';
 
 export default function Home() {
@@ -35,7 +36,34 @@ export default function Home() {
       {/* Case Studies */}
       <section className="mx-auto max-w-5xl px-6 pb-12">
         {/* <h2 className="section-title mb-4 text-center">Case Studies</h2> */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <AnimatedGroup
+          variants={{
+            container: {
+              visible: {
+                transition: {
+                  staggerChildren: 0.1,
+                  delayChildren: 1.5,
+                },
+              },
+            },
+            item: {
+              hidden: {
+                opacity: 0,
+                y: 20,
+              },
+              visible: {
+                opacity: 1,
+                y: 0,
+                transition: {
+                  type: 'spring' as const,
+                  bounce: 0.3,
+                  duration: 2,
+                },
+              },
+            },
+          }}
+          className="grid grid-cols-1 md:grid-cols-2 gap-6"
+        >
           {/* Card 1 */}
           <Link
             href="/case-studies/crypto-ai-portfolio"
@@ -300,7 +328,7 @@ export default function Home() {
               </div>
             </div>
           </Link>
-        </div>
+        </AnimatedGroup>
       </section>
 
       {/* Features */}

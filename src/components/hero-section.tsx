@@ -78,19 +78,20 @@ export default function HeroSection() {
               <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
                 <TextEffect
                   preset="fade-in-blur"
-                  speedSegment={0.3}
+                  speedSegment={0.1}
+                  delay={0.4}
                   as="h1"
                   className="mt-8 text-balance text-6xl md:text-7xl lg:mt-16 xl:text-[5.25rem]"
                 >
-                  I design thoughtful experiences
+                  I design new experiences
                 </TextEffect>
                 <TextEffect
                   per="line"
                   preset="fade-in-blur"
-                  speedSegment={0.3}
+                  speedSegment={0.1}
                   delay={0.5}
                   as="p"
-                  className="mx-auto mt-8 max-w-2xl text-balance text-lg"
+                  className="mx-auto mt-8 mb-32 max-w-2xl text-balance text-lg"
                 >
                   For real world users - always users first
                 </TextEffect>
@@ -143,8 +144,63 @@ export default function HeroSection() {
         </section>
         <section className="bg-background relative z-10 pb-16">
           <div className="m-auto max-w-5xl px-6">
-            {/* <h2 className="text-center text-lg font-medium">Your favorite companies are our partners.</h2> */}
-            <div className="mx-auto mt-12 max-w-4xl">
+            <AnimatedGroup
+              variants={{
+                container: {
+                  visible: {
+                    transition: {
+                      staggerChildren: 0.05,
+                      delayChildren: 1.5,
+                    },
+                  },
+                },
+                item: {
+                  hidden: {
+                    opacity: 0,
+                    y: 20,
+                  },
+                  visible: {
+                    opacity: 1,
+                    y: 0,
+                    transition: {
+                      duration: 0.8,
+                      ease: 'easeOut',
+                    },
+                  },
+                },
+              }}
+              className="flex flex-col items-center"
+            >
+              <h2 className="text-center text-lg font-medium mb-0">Trusted By</h2>
+            </AnimatedGroup>
+            <AnimatedGroup
+              variants={{
+                container: {
+                  visible: {
+                    transition: {
+                      staggerChildren: 0.05,
+                      delayChildren: 1,
+                    },
+                  },
+                },
+                item: {
+                  hidden: {
+                    opacity: 0,
+                    y: 20,
+                  },
+                  visible: {
+                    opacity: 1,
+                    y: 0,
+                    transition: {
+                      type: 'spring' as const,
+                      bounce: 0.3,
+                      duration: 2,
+                    },
+                  },
+                },
+              }}
+              className="mx-auto max-w-4xl"
+            >
               <Marquee>
                 <MarqueeFade side="left" />
                 <MarqueeFade side="right" />
@@ -221,7 +277,7 @@ export default function HeroSection() {
                   </MarqueeItem>
                 </MarqueeContent>
               </Marquee>
-            </div>
+            </AnimatedGroup>
           </div>
         </section>
       </main>
